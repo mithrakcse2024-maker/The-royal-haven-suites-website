@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Royal Haven Suites - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+    <img src="crown.png" class="logo">
+
+    <h2>The Royal Haven Suites</h2>
+
+    <div class="input-group">
+        <input type="email" id="email" placeholder="Enter Email">
+        <span class="eye" onclick="toggleEmail()">👁️</span>
+    </div>
+
+    <div class="input-group">
+        <input type="password" id="password" placeholder="Enter Password">
+        <span class="eye" onclick="togglePassword()">👁️</span>
+    </div>
+
+    <button onclick="login()">Sign In</button>
+
+    <p class="error" id="error"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
